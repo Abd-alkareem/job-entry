@@ -1,0 +1,432 @@
+doctype
+html
+    head
+        meta(charset="UTF-8")
+        title job entry
+        link(rel='stylesheet' href='../css/all.min.css')
+        link(rel='stylesheet' href='../css/bootstrap.min.css')
+        link(rel='stylesheet' href='../css/normalize.css')
+        link(rel='stylesheet' href='../css/main.css')
+    body
+        //start header
+        header
+            .logo job entry
+            |
+            |
+            i(class='minu-btn fas fa-bars d-flex d-lg-none align-items-center justify-content-center ')
+            ul.links
+                li.active
+                    a(href='#home') home
+                li
+                    a(href='#about') about
+                li
+                    a(href='#jobs') jobs
+                li
+                    a(href='#contact') contact
+
+            |
+            |
+            a(href='' class='job-post d-none d-lg-inline-flex') post a job 
+                i.fas.fa-arrow-right
+        //end header
+        |
+        |
+        //start landing
+        .landing#home
+            .container
+                p.heading find the perfect job that you deserved
+                p.info Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                .btns|
+                    |
+                    a(href='#', class='search-btn') search a job
+                    |
+                    |
+                    a(href='#', class='find-btn') find a talent
+
+        //end landing 
+        |
+        |
+        //start search
+        .search
+            .container  
+                form(action='' id='')
+                    input(type='text' placeholder='Keyword')
+                    select Category
+                        option(value='') Category
+                        option(value='') Category-1
+                        option(value='') Category-2
+                        option(value='') Category-3
+                    select Location
+                        option(value='') Location   
+                        option(value='') Location-1
+                        option(value='') Location-2
+                        option(value='') Location-3
+                    button search
+        //end search
+        |
+        |
+        // start category
+        .category.mb-5
+            .container  
+                h1.section-heading  explore by category
+                div(class='holder row g-4')
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                        a(href='')
+                            |
+                            |
+                            i(class='fas fa-mail-bulk')
+                            |
+                            |
+                            span(class='category-name') Marketing
+                            p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                            a(href='')
+                                |
+                                |
+                                i(class='fas fa-headset') 
+                                |
+                                |
+                                span(class='category-name') Customer Service
+                                p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                        a(href='')
+                            |
+                            |
+                            i(class='fas fa-user-tie') 
+                            |
+                            |
+                            span(class='category-name') Human Resource
+                            p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                            a(href='')
+                                |
+                                |
+                                i(class='fas fa-tasks ') 
+                                |
+                                |
+                                span(class='category-name') Project Management
+                                p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                            a(href='')
+                                |
+                                |
+                                i(class='fas fa-chart-line') 
+                                |
+                                |
+                                span(class='category-name') Business Development
+                                p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                        a(href='')
+                            |
+                            |
+                            i(class='fas fa-hands-helping  ') 
+                            |
+                            |
+                            span(class='category-name') Sales & Communication
+                            p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                        a(href='')
+                            |
+                            |
+                            i(class='fas fa-drafting-compass ') 
+                            |
+                            |
+                            span(class='category-name') Design & Creative
+                            p 123 vacancy
+                    div(class='item col-12 col-sm-6 col-lg-3')|
+                        a(href='')
+                            |
+                            |
+                            i(class='fas fa-book-reader ') 
+                            |
+                            |
+                            span(class='category-name') Teaching & Education
+                            p 123 vacancy
+        // end category
+        |
+        |
+        // start about
+        .about#about
+            .container
+                h1.section-heading about us
+                .holder.row.ps-4.pe-4
+                    .image.col-12.col-lg-6
+                        .row.img-holder
+                            .col-6.p-0.img-col
+                                img(src='../img/about-1.jpg' class='img-pice w-100')
+                            .col-6.p-0.img-col
+                                img(src='../img/about-2.jpg' class='img-pice w-100')
+                            .col-6.p-0.img-col
+                                img(src='../img/about-3.jpg' class='img-pice w-100')
+                            .col-6.p-0.img-col
+                                img(src='../img/about-4.jpg' class='img-pice w-100')
+                    .info.col-12.col-lg-6.pt-4.ps-0.ps-lg-5.ps-xl-1.pt-lg-0|
+                        |
+                        span.heading We Help To Get The Best Job And Find A Talent
+                        p Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        ul
+                            li Tempor erat elitr rebum at clita
+                                i.fas.fa-check 
+                            li  Aliqu diam amet diam et eos
+                                i.fas.fa-check
+                            li Clita duo justo magna dolore erat amet
+                                i.fas.fa-check
+                        button read more
+        // end about
+        |
+        |
+        //start jobs
+        .jobs#jobs.mt-5  
+            .container
+                h1.section-heading job listing
+                .holder 
+                    .item
+                        .part-left
+                            .image|
+                                |
+                                img(src='../img/com-logo-1.jpg')
+                            .info
+                                h1 Software Engineer
+                                div|
+                                    |
+                                    p.location|
+                                        |
+                                        i.fas.fa-map-marker-alt 
+                                        span New York, USA
+                                    |
+                                    |
+                                    p.type|
+                                        |
+                                        i.fas.fa-clock 
+                                        span Full Time
+                                |
+                                |
+                                p|
+                                    |
+                                    i.fas.fa-money-bill-alt 
+                                    span $123 - $456
+
+                        .part-right
+                            div
+                                i.fas.fa-heart
+                                button apply now
+                            p
+                                i.fas.fa-calendar-alt 
+                                span Date Line: 01 Jan, 2045
+                    .item
+                        .part-left
+                            .image|
+                                |
+                                img(src='../img/com-logo-2.jpg')
+                            .info
+                                h1 Marketing Manager
+                                div|
+                                    |
+                                    p.location|
+                                        |
+                                        i.fas.fa-map-marker-alt 
+                                        span New York, USA
+                                    |
+                                    |
+                                    p.type|
+                                        |
+                                        i.fas.fa-clock 
+                                        span Full Time
+                                |
+                                |
+                                p|
+                                    |
+                                    i.fas.fa-money-bill-alt 
+                                    span $123 - $456
+
+                        .part-right
+                            div
+                                i.fas.fa-heart
+                                button apply now
+                            p
+                                i.fas.fa-calendar-alt 
+                                span Date Line: 01 Jan, 2045
+                    .item
+                        .part-left
+                            .image|
+                                |
+                                img(src='../img/com-logo-3.jpg')
+                            .info
+                                h1 Product Designer
+                                div|
+                                    |
+                                    p.location|
+                                        |
+                                        i.fas.fa-map-marker-alt 
+                                        span New York, USA
+                                    |
+                                    |
+                                    p.type|
+                                        |
+                                        i.fas.fa-clock 
+                                        span Full Time
+                                |
+                                |
+                                p|
+                                    |
+                                    i.fas.fa-money-bill-alt 
+                                    span $123 - $456
+
+                        .part-right
+                            div
+                                i.fas.fa-heart
+                                button apply now
+                            p
+                                i.fas.fa-calendar-alt 
+                                span Date Line: 01 Jan, 2045
+                    .item
+                        .part-left
+                            .image|
+                                |
+                                img(src='../img/com-logo-4.jpg')
+                            .info
+                                h1 Creative Director
+                                div|
+                                    |
+                                    p.location|
+                                        |
+                                        i.fas.fa-map-marker-alt 
+                                        span New York, USA
+                                    |
+                                    |
+                                    p.type|
+                                        |
+                                        i.fas.fa-clock 
+                                        span Full Time
+                                |
+                                |
+                                p|
+                                    |
+                                    i.fas.fa-money-bill-alt 
+                                    span $123 - $456
+
+                        .part-right
+                            div
+                                i.fas.fa-heart
+                                button apply now
+                            p
+                                i.fas.fa-calendar-alt 
+                                span Date Line: 01 Jan, 2045
+                    .item
+                        .part-left
+                            .image|
+                                |
+                                img(src='../img/com-logo-5.jpg')
+                            .info
+                                h1 Wordpress Developer
+                                div|
+                                    |
+                                    p.location|
+                                        |
+                                        i.fas.fa-map-marker-alt 
+                                        span New York, USA
+                                    |
+                                    |
+                                    p.type|
+                                        |
+                                        i.fas.fa-clock 
+                                        span Full Time
+                                |
+                                |
+                                p|
+                                    |
+                                    i.fas.fa-money-bill-alt 
+                                    span $123 - $456
+
+                        .part-right
+                            div
+                                i.fas.fa-heart
+                                button apply now
+                            p
+                                i.fas.fa-calendar-alt 
+                                span Date Line: 01 Jan, 2045
+        //end jobs
+        |
+        |
+        //start contact
+        .contact#contact    
+            .container
+                h1.section-heading Contact For Any Query
+                .info   
+                    div
+                        i(class='fas fa-map-marker-alt')
+                        span 123 Street, New York, USA
+                    div
+                        i(class='fas fa-envelope-open')
+                        span info@example.com
+                    div
+                        i(class='fas fa-phone-alt ')
+                        span +012 345 6789
+                .holder.row
+                    .map.col-12.col-lg-6.half.mb-5.mb-lg-0
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z2YTZiNizINij2YbYrNmE2YjYs9iMINmD2KfZhNmK2YHZiNix2YbZitin2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2s!4v1714075240838!5m2!1sar!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    form(action='#' class='col-12 col-lg-6 half')
+                        p The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.
+                            a(href='') Download Now .
+                        input(type="text" class="input-fild half-50" placeholder="Your Name")
+                        input(type="email" class="input-fild half-50" placeholder="Your Email")
+                        input(type="text" class="input-fild" placeholder="Subject")
+                        textarea(class='input-fild' placeholder='Message')
+                        input(class='send' value='Send Message' )
+        //end contact
+        |
+        |
+        //start footer 
+        footer
+            .container
+                .holder.row
+                    .part.col-12.col-md-6.col-lg-3
+                        span.part-heading Company
+                        ul
+                            li 
+                                a(href='') about us
+                            li 
+                                a(href='') contact us
+                            li 
+                                a(href='') out services
+                            li 
+                                a(href='') privacy policy
+                            li 
+                                a(href='') terms & condtion
+                    .part.col-12.col-md-6.col-lg-3
+                        span.part-heading Quick Links
+                        ul
+                            li 
+                                a(href='') about us
+                            li 
+                                a(href='') contact us
+                            li 
+                                a(href='') out services
+                            li 
+                                a(href='') privacy policy
+                            li 
+                                a(href='') terms & condtion 
+                    .part.col-12.col-md-6.col-lg-3
+                        span.part-heading Contact
+                        div.social.d-flex
+                            i(class='fab fa-facebook')
+                            i(class='fab fa-twitter')
+                            i(class='fab fa-instagram')
+                            i(class='fab fa-whatsapp')
+                    .part.col-12.col-md-6.col-lg-3
+                        span.part-heading Newsletter
+                        p Dolor amet sit justo amet elitr clita ipsum elitr est.
+                        form(action='#')
+                            input(class='email-fild' type='text' placeholder='Your Email')
+                            input(class='send' type='submit' value='Sing Up')
+                p  Designed By HTML Codex, made by : 
+                    a(href='https://abd-003.surge.sh' target="_blank") "abd-alkareem" 
+                    span .
+        //end footer
+        | 
+        |
+
+        |
+        //
+        script(src="../js/main.js")
+        script(src="../js/bootstrap.bundle.min.js")
